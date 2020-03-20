@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Sign.MainPage" BackgroundColor="White" NavigationPage.HasNavigationBar="False">
+
+    <StackLayout TranslationY="100" Margin=" 10,0,10,0">
+
+
+        <StackLayout >
+            <Label Text="Sign up for" TextColor="DeepPink" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="Collaborativa" TextColor="DeepPink" FontSize="30" FontAttributes="Bold" HorizontalOptions="End" TranslationX="-85"/>
+        </StackLayout>
+
+        <StackLayout TranslationY="50" >
+            <Image Source="images" Aspect="AspectFill" />
+        </StackLayout>
+
+
+       
+        <StackLayout TranslationY="80">
+                <Button Text="Your email adress" BackgroundColor="Transparent" CornerRadius="30" BorderColor="Black" BorderWidth="1"  x:Name="btn1"/>
+    
+                <Button Text="Get started" BackgroundColor="HotPink" CornerRadius="30" x:Name="btn2" TextColor="White"/>
+            </StackLayout>
+
+
+        <Label Text="Get started for free. No Spam or affiliate links" TextColor="Black" FontSize="Small" TranslationY="90" HorizontalOptions="Center"/>
+
+    </StackLayout>
+
+</ContentPage>
